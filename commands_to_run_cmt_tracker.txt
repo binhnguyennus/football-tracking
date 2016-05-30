@@ -1,0 +1,8 @@
+
+import os
+os.chdir("C:\Users\hakki\Desktop\CMT-master\CMT-master")
+import sys
+sys.argv = ['--with-rotation', '.\\videoxx-5min.avi']
+or
+sys.argv = ['--challenge', '.\\videofu.avi'] 
+execfile('run.py') 
